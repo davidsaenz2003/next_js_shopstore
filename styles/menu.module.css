@@ -1,0 +1,25 @@
+.menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 0 10px black;
+    justify-content: space-around;
+}
+
+.menu > div {
+    display: flex;
+}
+
+.link {
+    display: block;
+    padding:  20px 15px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link:hover {
+    background-color: rgb(38, 111, 180);
+    color: white;
+}
